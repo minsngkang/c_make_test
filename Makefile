@@ -1,5 +1,3 @@
-
-
 CFLAGS=-std=gnu99 -pedantic -Wall
 
 hello_exec: job.o hobby.o hello_c.o
