@@ -3,7 +3,7 @@
 #include "hello_h.h"
 
 int main(){
-  printf("HELLO WARLD\n");
+  printf("빌드를 시작합니다\n");
   job();
   hobby();
   return 0;
