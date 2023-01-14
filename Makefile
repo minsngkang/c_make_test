@@ -7,7 +7,7 @@ job.o : job.c
 	gcc $(CFLAGS) -c job.c #-o job.o이런식으로 표현해도 되긴 하나 똑같아서 굳이 쓰지 않았다
 
 hobby.o : hobby.c
-	gcc $(CFLAGS) -c hobby.c
+	gcc $(CFLAGS) -c $< #구문의 첫번째 재료파일을 뜻하는 표현 $< 이렇게 써도 된다.
 
 hello_c.o : hello_c.c
 	gcc $(CFLAGS) -c hello_c.c
